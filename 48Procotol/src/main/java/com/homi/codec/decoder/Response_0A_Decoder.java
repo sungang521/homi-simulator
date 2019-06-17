@@ -8,6 +8,5 @@ public class Response_0A_Decoder extends AbstractDecoder {
 
     @Override
     public void decodeBody(ByteBuf buf, MSG48ForRSP msg48) {
-
     }
 }
