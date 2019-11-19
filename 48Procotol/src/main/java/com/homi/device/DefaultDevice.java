@@ -26,6 +26,7 @@ public class DefaultDevice implements IDevice {
     }
     public void init(){
         try {
+            server.setDevice(this);
             server.start();
         } catch (Exception e) {
             e.printStackTrace();
@@ -39,7 +40,7 @@ public class DefaultDevice implements IDevice {
                 heart();
             }
         };
-        pool.scheduleWithFixedDelay(r,0,3, TimeUnit.SECONDS);
+        pool.scheduleWithFixedDelay(r,0,20, TimeUnit.SECONDS);
     }
     @Override
     public MSG48 login(String prodKey,String devTid) {
@@ -76,6 +77,11 @@ public class DefaultDevice implements IDevice {
         MSG48 msg481 = getRSP(msg48);
         System.out.println("上报应答："+msg481);
         return msg481;
+    }
+
+    @Override
+    public void isOpenHeart() {
+        isOpen = true;
     }
 
     private MSG48 getRSP(MSG48 msg48){

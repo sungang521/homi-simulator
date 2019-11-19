@@ -2,6 +2,8 @@ package com.homi.server;
 
 import com.homi.codec.Decoder;
 import com.homi.codec.Encoder;
+import com.homi.device.IDevice;
+import com.homi.handler.ControlSuccessHandler;
 import com.homi.handler.NettyHandler;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.*;
@@ -21,6 +23,15 @@ public class NettyServer {
     private final int port;
     private Channel channel;
 
+    public IDevice getDevice() {
+        return device;
+    }
+
+    public void setDevice(IDevice device) {
+        this.device = device;
+    }
+
+    private IDevice device;
     //连接服务端的端口号地址和端口号
     public NettyServer(String host, int port) {
         this.host = host;
@@ -38,6 +49,7 @@ public class NettyServer {
                         ChannelPipeline pipeline = ch.pipeline();
                         pipeline.addLast(new StringDecoder());
                         pipeline.addLast(new Decoder());
+                        pipeline.addLast(new ControlSuccessHandler(device));
                         pipeline.addLast(new NettyHandler());
                         pipeline.addLast(new StringEncoder());
                         pipeline.addLast(new Encoder());

@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10da21ee-ffc2-429c-81cd-f1855a3a4c98" name="Default Changelist" comment="" />
+    <list default="true" id="10da21ee-ffc2-429c-81cd-f1855a3a4c98" name="Default Changelist" comment="48协议">
+      <change afterPath="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/handler/ControlSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/DecoderProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/DecoderProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/decoder/ControlDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/decoder/ControlDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/encoder/ReportEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/encoder/ReportEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/device/DefaultDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/device/DefaultDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/device/IDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/device/IDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/handler/NettyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/handler/NettyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/server/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/server/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/util/ByteUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/util/ByteUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/util/SnManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/util/SnManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/codec/DecoderProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/codec/DecoderProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/codec/decoder/ControlDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/codec/decoder/ControlDecoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/codec/decoder/Response_0A_Decoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/codec/decoder/Response_0A_Decoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/codec/encoder/ReportEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/codec/encoder/ReportEncoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/device/DefaultDevice$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/device/DefaultDevice$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/device/DefaultDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/device/DefaultDevice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/device/IDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/device/IDevice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/handler/NettyHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/handler/NettyHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/server/NettyServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/server/NettyServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/server/NettyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/server/NettyServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/util/ByteUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/util/ByteUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/util/SnManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/48Procotol/target/classes/com/homi/util/SnManager.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/48Procotol/target/" />
@@ -11,47 +39,81 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/DecoderProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/decoder/Response_02_Decoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/decoder/Response_01_Decoder.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+            <state relative-caret-position="361">
+              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/device/IDevice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/EncoderProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/DecoderProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../repo/io/netty/netty-all/4.1.4.Final/netty-all-4.1.4.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="232" column="33" selection-start-line="232" selection-start-column="33" selection-end-line="232" selection-end-column="33" />
+              <folding>
+                <element signature="e#36308#36309#0" expanded="true" />
+                <element signature="e#36361#36362#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,8 +122,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/server/NettyServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
+            <state relative-caret-position="741">
+              <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/Encoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/device/DefaultDevice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="48" column="21" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="21" />
+            <state relative-caret-position="114">
+              <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,24 +160,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/handler/NettyHandler.java">
+        <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/encoder/ReportEncoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="152">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/Decoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,20 +175,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/decoder/ControlDecoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/decoder/AbstractDecoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="281">
+              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,28 +213,33 @@
         <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/bean/Contant.java" />
         <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/bean/Cache.java" />
         <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/encoder/LoginEncoder.java" />
-        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/util/SnManager.java" />
-        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/util/ByteUtil.java" />
-        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/encoder/AbstractEncoder.java" />
         <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/bean/MSG48.java" />
         <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/bean/MSG48ForRSP.java" />
         <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/Decoder.java" />
         <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/Encoder.java" />
         <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/encoder/HeartEncoder.java" />
-        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/device/IDevice.java" />
-        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/encoder/ReportEncoder.java" />
         <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/EncoderProcessor.java" />
         <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/decoder/AbstractDecoder.java" />
-        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/decoder/Response_0A_Decoder.java" />
         <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/decoder/Response_0C_Decoder.java" />
         <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/decoder/Response_02_Decoder.java" />
-        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/decoder/ControlDecoder.java" />
-        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/server/NettyServer.java" />
-        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/Test.java" />
-        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/DecoderProcessor.java" />
         <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/decoder/Response_01_Decoder.java" />
+        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/decoder/Response_0A_Decoder.java" />
+        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/device/APP.java" />
+        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/server/NettyWebSocketServer.java" />
+        <option value="$PROJECT_DIR$/48Procotol/src/main/resources/test.sh" />
+        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/VerifyCodeGenerate.java" />
+        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/Test.java" />
+        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/server/NettyServer.java" />
+        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/device/IDevice.java" />
+        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/util/SnManager.java" />
+        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/DecoderProcessor.java" />
+        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/handler/ControlSuccessHandler.java" />
+        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/encoder/AbstractEncoder.java" />
+        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/util/ByteUtil.java" />
         <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/handler/NettyHandler.java" />
         <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/device/DefaultDevice.java" />
+        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/decoder/ControlDecoder.java" />
+        <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/encoder/ReportEncoder.java" />
         <option value="$PROJECT_DIR$/48Procotol/src/main/java/com/homi/Main.java" />
       </list>
     </option>
@@ -193,10 +253,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="815" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -265,7 +325,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="homi" type="462c0819:PsiDirectoryNode" />
               <item name="codec" type="462c0819:PsiDirectoryNode" />
-              <item name="decoder" type="462c0819:PsiDirectoryNode" />
+              <item name="encoder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="homi-simulator" type="b2602c69:ProjectViewProjectNode" />
@@ -277,30 +337,50 @@
               <item name="homi" type="462c0819:PsiDirectoryNode" />
               <item name="handler" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="homi-simulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homi-simulator" type="462c0819:PsiDirectoryNode" />
+              <item name="48Procotol" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="homi-simulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homi-simulator" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/48Procotol/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.homi.handler" />
+      <recent name="com.homi" />
+      <recent name="com.homi.server" />
       <recent name="com.homi.codec.decoder" />
       <recent name="com.homi.codec.encoder" />
-      <recent name="com.homi.bean" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/48Procotol/src/main/resources" />
+      <recent name="$PROJECT_DIR$/doc" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -355,12 +435,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SnManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.homi.util.SnManager" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.homi.Test" />
       <module name="48Procotol" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.homi.util.*" />
+          <option name="PATTERN" value="com.homi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -368,8 +448,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.homi.Test" />
+    <configuration name="VerifyCodeGenerate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.homi.VerifyCodeGenerate" />
       <module name="48Procotol" />
       <extension name="coverage">
         <pattern>
@@ -384,10 +464,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.VerifyCodeGenerate" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Decoder" />
         <item itemvalue="Application.ByteUtil" />
-        <item itemvalue="Application.SnManager" />
       </list>
     </recent_temporary>
   </component>
@@ -401,32 +481,67 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560242936333</updated>
-      <workItem from="1560242949140" duration="68470000" />
+      <workItem from="1560242949140" duration="72404000" />
+      <workItem from="1560841619838" duration="33103000" />
+      <workItem from="1561967785260" duration="592000" />
+      <workItem from="1563947141944" duration="31409000" />
+      <workItem from="1564658450868" duration="40000" />
+      <workItem from="1564728461895" duration="5636000" />
+      <workItem from="1564987545839" duration="4685000" />
     </task>
+    <task id="LOCAL-00001" summary="48协议">
+      <created>1560773882989</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560773882989</updated>
+    </task>
+    <task id="LOCAL-00002" summary="48协议">
+      <created>1560773912039</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560773912039</updated>
+    </task>
+    <task id="LOCAL-00003" summary="48协议">
+      <created>1560774236738</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560774236738</updated>
+    </task>
+    <task id="LOCAL-00004" summary="48协议">
+      <created>1560851122104</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560851122104</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68470000" />
+    <option name="totallyTimeSpent" value="147869000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="813" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="805" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3292683" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32871014" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.31330472" side_tool="true" weight="0.4590846" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.4590846" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.6866953" weight="0.45862553" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39834026" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -435,7 +550,7 @@
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.1702432" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -445,17 +560,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/Decoder.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="48协议" />
+    <option name="LAST_COMMIT_MESSAGE" value="48协议" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/48Procotol/pom.xml">
@@ -475,13 +582,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/util/SnUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/util/SnUtil.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="652">
@@ -518,13 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="267" column="28" selection-start-line="267" selection-start-column="28" selection-end-line="267" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/util/SnManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -584,49 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/encoder/HeartEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repo/io/netty/netty-all/4.1.4.Final/netty-all-4.1.4.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="350" selection-start-line="350" selection-end-line="350" />
-          <folding>
-            <element signature="e#36308#36309#0" expanded="true" />
-            <element signature="e#36361#36362#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/Encoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/EncoderProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../repo/io/netty/netty-all/4.1.4.Final/netty-all-4.1.4.Final-sources.jar!/io/netty/buffer/HeapByteBufUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -660,29 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
           <caret line="1692" column="28" selection-start-line="1692" selection-start-column="28" selection-end-line="1692" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/util/ByteUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/decoder/Response_0A_Decoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -736,41 +764,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/encoder/AbstractEncoder.java">
+    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/decoder/Response_01_Decoder.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/resources/test.sh" />
+    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/server/NettyWebSocketServer.java" />
+    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/VerifyCodeGenerate.java" />
+    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/Test.java" />
+    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/device/APP.java" />
+    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/decoder/Response_02_Decoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/encoder/ReportEncoder.java">
+    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/decoder/Response_0A_Decoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="23" column="59" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="59" />
-          <folding>
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/device/IDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/decoder/ControlDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -787,34 +802,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/Test.java">
+    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/handler/ControlSuccessHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#110#111#0" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/DecoderProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        <state relative-caret-position="399">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/decoder/Response_01_Decoder.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/decoder/Response_02_Decoder.java">
+    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/encoder/HeartEncoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="190">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/util/SnManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/encoder/AbstractEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/util/ByteUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+          <folding>
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/Decoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -823,8 +866,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/handler/NettyHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="969">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../repo/io/netty/netty-all/4.1.4.Final/netty-all-4.1.4.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../repo/io/netty/netty-all/4.1.4.Final/netty-all-4.1.4.Final-sources.jar!/io/netty/channel/ChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2736">
+          <caret line="165" column="26" selection-start-line="165" selection-start-column="26" selection-end-line="165" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/server/NettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/Encoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/decoder/ControlDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/device/IDevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -833,38 +934,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/device/DefaultDevice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="48" column="21" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="21" />
+        <state relative-caret-position="114">
+          <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/server/NettyServer.java">
+    <entry file="jar://$PROJECT_DIR$/../../repo/io/netty/netty-all/4.1.4.Final/netty-all-4.1.4.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
+        <state relative-caret-position="300">
+          <caret line="232" column="33" selection-start-line="232" selection-start-column="33" selection-end-line="232" selection-end-column="33" />
+          <folding>
+            <element signature="e#36308#36309#0" expanded="true" />
+            <element signature="e#36361#36362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/DecoderProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/Decoder.java">
+    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/EncoderProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        <state relative-caret-position="79">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/codec/encoder/ReportEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/48Procotol/src/main/java/com/homi/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        <state relative-caret-position="361">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

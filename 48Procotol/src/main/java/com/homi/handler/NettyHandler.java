@@ -21,18 +21,18 @@ public class NettyHandler extends ChannelInboundHandlerAdapter {
              */
             if(Cache.map.keySet().contains(""+((MSG48) msg).getType())){
                 request = Cache.map.get(((MSG48) msg).getType().toString());
-
-            }
-            switch (msg48.getType()){
-                case 2:
-                     request = Cache.map.get("1");
-                    break;
-                case 0x0C:
-                    request = Cache.map.get(0x0B+"");
-                    break;
-                case 0x0A:
-                    request = Cache.map.get(0x09+"");
-                    break;
+            }else {
+                switch (msg48.getType()){
+                    case 0x02:
+                        request = Cache.map.get("1");
+                        break;
+                    case 0x0C:
+                        request = Cache.map.get(0x0B+"");
+                        break;
+                    case 0x0A:
+                        request = Cache.map.get(0x09+"");
+                        break;
+                }
             }
             if(request!=null){
                 synchronized (request){
@@ -44,5 +44,18 @@ public class NettyHandler extends ChannelInboundHandlerAdapter {
 
 
         }
+    }
+
+    @Override
+    public void channelInactive(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("close");
+        ctx.close();
+        super.channelInactive(ctx);
+    }
+
+    @Override
+    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
+        ctx.close();
+        super.exceptionCaught(ctx, cause);
     }
 }

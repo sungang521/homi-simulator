@@ -59,12 +59,15 @@ public class DecoderProcessor {
         msg48.setLength(buf.readByte());
         msg48.setType(buf.readByte());
         msg48.setNumber(buf.readByte());
-        int rcode =
-                (buf.readByte() & 0xff) << 24 |
-                        (buf.readByte() & 0xff) << 16 |
-                        (buf.readByte() & 0xff) << 8 |
-                        buf.readByte() & 0xff;
-        msg48.setRspCode(rcode);
+        if(msg48.getType()!=0x07){
+            int rcode =
+                    (buf.readByte() & 0xff) << 24 |
+                            (buf.readByte() & 0xff) << 16 |
+                            (buf.readByte() & 0xff) << 8 |
+                            buf.readByte() & 0xff;
+            msg48.setRspCode(rcode);
+        }
+
 
     }
 
